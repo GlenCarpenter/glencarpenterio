@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:100,300|Montserrat|Raleway');
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>glencarpenter.io</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/path/to/parallax.js"></script>
+    <script src="scripts.js"></script>
+  </head>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand" href="#">glencarpenter.io</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutme">About</a></li> 
+          <li><a href="#projects">Projects</a></li> 
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Body / Header -->
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="glenbox parallax-window" data-parallax="scroll" data-image-src="images/Denver.jpg">
+      <section class="menu">
+        <h1>Glen Carpenter</h1>
+        <h2 id="subheader">Full Stack Developer</h2>
+      </section>
+    </div>
+      
+    <div class="banner1">
+      <h3  id="aboutme">Hello, my name is Glen.</h3>
+    </div>
+
+    <div class="aboutme">
+        <h1 class="blue">A little bit about me</h1>
+        <br>
+        <br>  <h4>I am a Full Stack Developer based out of Denver, CO.  I have a passion for software, technology, and web development.  My areas of expertise include:</h4>
+      <ul class="icons">
+        <li>HTML5 <img src="images/html5.png"/></li>
+        <li>CSS <img src="images/css.png" /></li>
+        <li>JavaScript <img src="images/js.png" /></li>
+        <li>React <img src="images/react.png" /></li>
+        <li>SQL <img src="images/sql.png" /></li>
+        <li>Ruby on Rails <img src="images/rails.png" /></li>
+        <li>Node.js <img src="images/nodejs.png" /></li>
+        <li>Linux <img src="images/linux.png" /></li>
+        <li>PMP <img src="images/pmp.png" /></li>
+      </ul>
+      <h4>I am a dedicated software engineer, project manager, telecom industry professional, and entrepreneur. I have a diverse background in technical, financial, and account management. I have spent several years working in web development and engineering documentation.<br><br>
+
+        I have an entrepreneurial spirit and bring my best to every company I've had the pleasure of working with. I am always looking for a new adventure, and I'd love to hear from you.</h4><br>
+    </div>
+      
+    <div class="banner2 parallax-window" data-parallax="scroll" data-image-src="images/banner.jpg">>
+    </div>
+    <div id="projects"></div>
+    <div class="projects">
+      <h1 class="blue"><br>Projects</h1><br>
+      <h4>I work on both front-end and back-end, with an emphasis on code readability, sustainability, and cleanliness.</h4><br>
+      <h4>Here are some examples of my work:</h4>
+      <div class="projects-container">
+        <div class="projects-box"><h3 id="poem"><a href="https://repl.it/@GlenCarpenter/Poetry-Simulator" target="blank">Poetry Simulator</a></h3>
+          <p>Poetry Simulator uses the DataMuse API to find rhyming and related words to automatically generate a poem, based off of a 'seed' word provided by the user.</p></div>
+        <div class="projects-box"><h3 id="proj2"><a href="https://www.instagram.com/8bit_inspiration/" target="blank">8bit Inspiration</a></h3>
+          <p>8bit inspiration is a personal artistic project.  In this instagram account, I contrast inspirational quotes against images that have been rendered to a retro, 8bit style using 8bit Photo Lab.</p></div>
+        <div class="projects-box"><h3 id="proj3"><a href="#" target="blank">Project 3</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+    </div>
+    </div>
+  </body>
+
+  <footer>
+    <br><p>Glen Carpenter, June 2018</p>
+    <p id="contact">Contact information: <br>Email: <a href="mailto:glen@glencarpenter.io">
+      glen@glencarpenter.io</a>
+      <br>Phone: (805) 300-7643
+    </p>
+  </footer>
+</html>
