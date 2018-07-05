@@ -129,14 +129,21 @@ body {
   color: white;
 }
 
-.projects-box p a:hover{color: #c2c7dc}
+.projects-box p a:visited {
+  color: white;
+}
+.projects-box p a:hover {
+  color: #c2c7dc
+}
 
 .projects h3 a {
   text-decoration: none;
   color: black;
 }
 
-.projects h3 a:hover{color: #c2c7dc}
+.projects h3 a:hover {
+  color: #c2c7dc
+}
 
 .projects-container {
   max-width: 850px;
