@@ -125,9 +125,11 @@ body {
   color: white;
 }
 
-.projects p a {
+.projects-box p a {
   color: white;
 }
+
+.projects-box p a:hover{color: #c2c7dc}
 
 .projects h3 a {
   text-decoration: none;
