@@ -125,6 +125,10 @@ body {
   color: white;
 }
 
+.projects p a {
+  color: white;
+}
+
 .projects h3 a {
   text-decoration: none;
   color: black;
