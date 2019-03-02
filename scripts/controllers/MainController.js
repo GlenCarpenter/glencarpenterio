@@ -62,6 +62,15 @@ app.controller('MainController', ['$scope', function($scope) {
             gitHubLink: '',
             gitHubDesc: '',
             backgroundColor: {'background-color': 'SteelBlue'}
+        },
+        {
+            title: 'Glen Carpenter: Front End Developer',
+            appLink: 'http://glencarpenter.io',
+            description1: 'This webpage, you are visiting!',
+            description2: 'This website was custom built with jQuery, Bootstrap, and AngularJS.',
+            gitHubLink: 'https://github.com/GlenCarpenter/glencarpenterio',
+            gitHubDesc: 'github.com/GlenCarpenter/glencarpenterio',
+            backgroundColor: {'background-color': 'SandyBrown'}
         }
     ];
   }]);
