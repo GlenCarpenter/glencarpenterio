@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/path/to/parallax.js"></script>
-    <script src="scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/controllers/MainController.js"></script>
   </head>
 
   <!-- Navbar -->
@@ -44,7 +45,7 @@
   </nav>
 
     <!-- Body / Header -->
-  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
+  <body ng-app="GlenCarpenterIO" id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="glenbox parallax-window" data-parallax="scroll" data-image-src="images/Denver.jpg">
       <section class="menu">
         <h1>Glen Carpenter</h1>
@@ -84,41 +85,17 @@
     <div class="banner2 parallax-window" data-parallax="scroll" data-image-src="images/banner.jpg">>
     </div>
     <div id="projects"></div>
-    <div class="projects">
+    <div class="projects" ng-controller="MainController">
       <h1 class="blue"><br>Projects</h1><br>
       <h4>I work on both front-end and back-end, with an emphasis on code readability, sustainability, and cleanliness.</h4><br>
       <h4>Here are some examples of my work:</h4>
-      <div class="projects-container">
-        <div class="projects-box"><h3 id="proj1"><a href="https://glencarpenter.github.io/ghpage-test/" target="blank">RetroTube</a></h3>
-          <p>A stripped down YouTube user interface, for those of us who prefer a simpler time in the days of the internet.</p>
-          <p>Built with React, this makes use of the YouTube API to deliver video content in a simple, clean interface.</p>
-          <p><a href="https://github.com/GlenCarpenter/ghpage-test" target="_blank">View on GitHub</a></p>
+      <div class="projects-container" ng-repeat="project in projects">
+        <div class="projects-box" ng-style="{{project.backgroundColor}}"><h3><a ng-href="{{ project.appLink }}" target="blank">{{ project.title }}</a></h3>
+          <p>{{ project.description1 }}</p>
+          <p>{{ project.description2 }}</p>
+          <p><a ng-href="{{ project.gitHubLink }}" target="_blank">{{ project.gitHubDesc }}</a></p>
         </div>
-        <div class="projects-box"><h3 id="proj1"><a href="https://easy-8bit-paint.herokuapp.com/index.html" target="blank">8bit Paint</a></h3>
-          <p>8bit Paint allows the user to paint a 16x16 grid in a retro sprite style and can even download the image when complete!</p>
-          <p>Based on my love for all things Nintendo!</p>
-          <p><a href="https://github.com/GlenCarpenter/8bit_paint" target="_blank">View on GitHub</a></p>
-        </div>
-        <div class="projects-box"><h3 id="proj2"><a href="https://codepen.io/GlenTheEskimo/pen/XoNQXR" target="blank">React Key Logger</a></h3>
-          <p>React Key Logger is an open source proof-of-concept to show how user behavior can be tracked and measured.</p>
-          <p>The question is, how useful is it to harvest ALL user keystrokes on your app?  Is it ethical to do so?  The key logger was fairly easy to create, however the privacy implications must be carefully considered prior to deployment.</p>
-          <p><a href="https://github.com/GlenCarpenter/reactKeyLogger" target="_blank">View on GitHub</a></p>
-        </div>
-        <div class="projects-box"><h3 id="proj3"><a href="https://montessorihousehold.com/" target="blank">Montessori Household</a></h3>
-          <p>Montessori Household is a simple Wordpress eCommerce website that delivers tools to develop a Montessori learning environment in individual households.</p>
-          <p>The site was initially created as an market evaluation for the products being sold, which was then updated to a full fledged web store.</p>
-        </div>
-        <div class="projects-box"><h3 id="proj4"><a href="https://chrome.google.com/webstore/detail/vetrelief-site-enhancemen/fldlpkekmafogncdjlmnhbkiihocnipk?hl=en&amp;authuser=1" target="blank">VetRelief Site Enhancement</a></h3>
-          <p>VetRelief Site Enhancement was created per a customer request on up <a href="https://www.upwork.com/freelancers/~01a59332c890ff5a84" target="_blank">Upwork.com</a>.</p>
-          <p>This is a Chrome extension that changes layout of VetRelief.com website, which is owned and maintained by a third party developer.  This is accomplished by use of jQuery plugins and HTML/CSS injection.</p>
-        </div>
-        <div class="projects-box"><h3 id="proj2"><a href="https://chrome.google.com/webstore/detail/reddit-user-search/hcebefcnbjhdclmhkaeedeoidgeiaeam?hl=en" target="blank">Reddit User Search</a></h3>
-          <p>Reddit User Search is a Chrome extension that allows you to search a Reddit User's profile and posts with ease.</p>
-          <p><a href="http://github.com/GlenCarpenter/RedditUserApp" target="_blank">View on GitHub</a></p>
-        </div>
-        <div class="projects-box"><h3 id="poem"><a href="https://repl.it/@GlenCarpenter/Poetry-Simulator" target="blank">Poetry Simulator</a></h3>
-          <p>Poetry Simulator uses the DataMuse API to find rhyming and related words to automatically generate a poem, based off of a 'seed' word provided by the user.</p>
-        </div>
+      </div>
     </div>
   </body>
 
