@@ -155,21 +155,12 @@ body {
   margin: 0px 30px 20px;
   flex-basis: 30%;
   box-sizing: border-box;
+  box-shadow: 5px 5px 4px #888888;
 }
 
 .projects-box p {
   margin-top: 40px;
 }
-
-.projects-box:nth-child(1) {background-color: Dodgerblue;}
-.projects-box:nth-child(2) {background-color: Sienna;}
-.projects-box:nth-child(3) {background-color: lightgreen;}
-.projects-box:nth-child(4) {background-color: #ffa0a0;}
-.projects-box:nth-child(5) {background-color: Dodgerblue;}
-.projects-box:nth-child(6) {background-color: Sienna;}
-.projects-box:nth-child(7) {background-color: lightgreen;}
-.projects-box:nth-child(8) {background-color: #ffa0a0;}
-
 
 /* footer css */
 
