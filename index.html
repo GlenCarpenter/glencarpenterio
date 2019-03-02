@@ -17,9 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
-    <script src="scripts/app.js"></script>
     <script src="scripts/index.js"></script>
-    <script src="scripts/controllers/MainController.js"></script>
   </head>
 
   <!-- Navbar -->
@@ -90,13 +88,20 @@
       <h4>I work on both front-end and back-end, with an emphasis on code readability, sustainability, and cleanliness.</h4><br>
       <h4>Here are some examples of my work:</h4>
       <div class="projects-container" ng-repeat="project in projects">
-        <div class="projects-box" ng-style="{{project.backgroundColor}}"><h3><a ng-href="{{ project.appLink }}" target="blank">{{ project.title }}</a></h3>
-          <p>{{ project.description1 }}</p>
-          <p>{{ project.description2 }}</p>
-          <p><a ng-href="{{ project.gitHubLink }}" target="_blank">{{ project.gitHubDesc }}</a></p>
-        </div>
+        <project-info info="project"></project-info>
       </div>
     </div>
+
+
+    <!-- Modules -->
+    <script src="scripts/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="scripts/controllers/MainController.js"></script>
+
+    <!-- Directives -->
+    <script src="scripts/directives/projectInfo.js"></script>
+
   </body>
 
   <footer>
