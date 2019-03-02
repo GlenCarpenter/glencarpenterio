@@ -34,7 +34,7 @@ app.controller('MainController', ['$scope', function($scope) {
             description2: 'The site was initially created as an market evaluation for the products being sold, which was then updated to a full fledged web store.',
             gitHubLink: '',
             gitHubDesc: '',
-            backgroundColor: {'background-color': 'SandyBrown'}
+            backgroundColor: {'background-color': '#ffb868'}
         },
         {
             title: 'VetRelief Site Enhancement',
@@ -70,7 +70,7 @@ app.controller('MainController', ['$scope', function($scope) {
             description2: 'This website was custom built with jQuery, Bootstrap, and AngularJS.',
             gitHubLink: 'https://github.com/GlenCarpenter/glencarpenterio',
             gitHubDesc: 'github.com/GlenCarpenter/glencarpenterio',
-            backgroundColor: {'background-color': 'SandyBrown'}
+            backgroundColor: {'background-color': '#ffb868'}
         }
     ];
   }]);
