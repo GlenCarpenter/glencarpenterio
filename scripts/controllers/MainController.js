@@ -1,6 +1,15 @@
 app.controller('MainController', ['$scope', function($scope) {
     $scope.projects = [
         {
+            title: 'CoffeLab Solutions',
+            appLink: 'https://glencarpenter.github.io/CoffeeLabSolutions/',
+            description1: 'CoffeLab Solutions is a software solutions and project management service provider.',
+            description2: 'The website I created is a lead generation landing page desinged to drive sales.',
+            gitHubLink: 'https://github.com/GlenCarpenter/CoffeeLabSolutions',
+            gitHubDesc: 'github.com/GlenCarpenter/CoffeeLabSolutions',
+            backgroundColor: {'background-color': '#ffb868'}
+        },
+        {
             title: '8bit Paint',
             appLink: 'https://easy-8bit-paint.herokuapp.com/index.html',
             description1: '8bit Paint allows the user to paint a 16x16 grid in a retro sprite style and can even download the image when complete!',
