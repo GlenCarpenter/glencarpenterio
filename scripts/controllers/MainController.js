@@ -1,9 +1,9 @@
 app.controller('MainController', ['$scope', function($scope) {
     $scope.projects = [
         {
-            title: 'CoffeLab Solutions',
+            title: 'CoffeeLab Solutions',
             appLink: 'https://glencarpenter.github.io/CoffeeLabSolutions/',
-            description1: 'CoffeLab Solutions is a software solutions and project management service provider.',
+            description1: 'CoffeeLab Solutions is a software solutions and project management service provider.',
             description2: 'The website I created is a lead generation landing page desinged to drive sales.',
             gitHubLink: 'https://github.com/GlenCarpenter/CoffeeLabSolutions',
             gitHubDesc: 'github.com/GlenCarpenter/CoffeeLabSolutions',
