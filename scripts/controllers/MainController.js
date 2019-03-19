@@ -4,7 +4,7 @@ app.controller('MainController', ['$scope', function($scope) {
             title: 'New Saigon Grill',
             appLink: 'https://glencarpenter.github.io/new-saigon-denver/#/',
             description1: 'New Saigon Grill is a Vietnamese restaurant in Denver, CO.',
-            description2: 'The website I created uses ReactJS and React Router to create a seamless Single Page Application.',
+            description2: 'The website I created uses ReactJS and React Router to create a seamless, responsive single page application.',
             gitHubLink: 'https://github.com/GlenCarpenter/new-saigon-denver',
             gitHubDesc: 'github.com/GlenCarpenter/new-saigon-denver',
             backgroundColor: {'background-color': 'SteelBlue'}
