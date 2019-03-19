@@ -1,6 +1,15 @@
 app.controller('MainController', ['$scope', function($scope) {
     $scope.projects = [
         {
+            title: 'New Saigon Grill',
+            appLink: 'https://glencarpenter.github.io/new-saigon-denver/#/',
+            description1: 'New Saigon Grill is a Vietnamese restaurant in Denver, CO.',
+            description2: 'The website I created uses ReactJS and React Router to create a seamless Single Page Application.',
+            gitHubLink: 'https://github.com/GlenCarpenter/new-saigon-denver',
+            gitHubDesc: 'github.com/GlenCarpenter/new-saigon-denver',
+            backgroundColor: {'background-color': 'SteelBlue'}
+        },
+        {
             title: 'CoffeeLab Solutions',
             appLink: 'https://glencarpenter.github.io/CoffeeLabSolutions/',
             description1: 'CoffeeLab Solutions is a software solutions and project management service provider.',
