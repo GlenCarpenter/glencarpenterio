@@ -261,3 +261,15 @@ footer a:hover {
     background-color: #2982f4 !important;
   }
 }
+
+@media (max-width: 550px) {
+  .icons > li {
+    display: grid;
+    grid-auto-columns: auto;
+    width: 100px;
+  }
+
+  .icons > li > img {
+    margin: 0 auto;
+  }
+}

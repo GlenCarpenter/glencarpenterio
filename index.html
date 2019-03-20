@@ -87,8 +87,10 @@
       <h1 class="blue"><br>Projects</h1><br>
       <h4>I work on both front-end and back-end, with an emphasis on code readability, sustainability, and cleanliness.</h4><br>
       <h4>Here are some examples of my work:</h4>
-      <div class="projects-container" ng-repeat="project in projects">
-        <project-info info="project"></project-info>
+      <div class="projects-container">
+        <div ng-repeat="project in projects">
+          <project-info info="project"></project-info>
+        </div>
       </div>
     </div>
 
