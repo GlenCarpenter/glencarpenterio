@@ -153,7 +153,6 @@ body {
 .projects-box {
   padding: 50px;
   margin: 0px 30px 20px;
-  flex-basis: 30%;
   box-sizing: border-box;
   box-shadow: 5px 5px 4px #888888;
 }
