@@ -10,12 +10,6 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 
-$('.nav a').on('click', function(){
-  $('.btn-navbar').click(); //bootstrap 2.x
-  $('.navbar-toggle').click(); //bootstrap 3.x by Richard
-  $('.navbar-toggler').click(); //bootstrap 4.x
-});
-
 /*!
  * parallax.js v1.5.0 (http://pixelcog.github.io/parallax.js/)
  * @copyright 2016 PixelCog, Inc.

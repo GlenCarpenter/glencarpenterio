@@ -1,6 +1,15 @@
 app.controller('MainController', ['$scope', function($scope) {
     $scope.projects = [
         {
+            title: 'RetroTube',
+            appLink: 'https://glencarpenter.github.io/retrotube/',
+            description1: 'RetroTube is an app that allows you to search for YouTube videos in a throwback 2007 YouTube layout',
+            description2: 'The app uses ReactJS and axios for API calls. The site is easy to navigate.',
+            gitHubLink: 'https://github.com/GlenCarpenter/retrotube',
+            gitHubDesc: 'github.com/GlenCarpenter/retrotube',
+            backgroundColor: {'background-color': 'Sienna'}
+        },
+        {
             title: 'New Saigon Grill',
             appLink: 'https://glencarpenter.github.io/new-saigon-denver/#/',
             description1: 'New Saigon Grill is a Vietnamese restaurant in Denver, CO.',
