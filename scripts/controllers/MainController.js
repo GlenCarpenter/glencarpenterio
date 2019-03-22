@@ -2,7 +2,7 @@ app.controller('MainController', ['$scope', function($scope) {
     $scope.projects = [
         {
             title: 'RetroTube',
-            appLink: 'https://glencarpenter.github.io/retrotube/',
+            appLink: 'https://glencarpenter.github.io/retro-tube/',
             description1: 'RetroTube is an app that allows you to search for YouTube videos in a throwback 2007 YouTube layout',
             description2: 'The app uses ReactJS and axios for API calls. The site is easy to navigate.',
             gitHubLink: 'https://github.com/GlenCarpenter/retrotube',
