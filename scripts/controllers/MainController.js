@@ -2,7 +2,7 @@ app.controller('MainController', ['$scope', function($scope) {
     $scope.projects = [
         {
             title: 'RetroTube',
-            appLink: 'https://glencarpenter.github.io/retro-tube/',
+            appLink: 'https://glencarpenter.github.io/retrotube/',
             description1: 'RetroTube is an app that allows you to search for YouTube videos in a throwback 2007 YouTube layout',
             description2: 'The app uses ReactJS and axios for API calls. The site is easy to navigate.',
             gitHubLink: 'https://github.com/GlenCarpenter/retrotube',
@@ -56,8 +56,8 @@ app.controller('MainController', ['$scope', function($scope) {
         },
         {
             title: 'React Key Logger',
-            appLink: 'https://codepen.io/GlenTheEskimo/pen/XoNQXR',
-            description1: 'React Key Logger is an open source proof-of-concept to show how user behavior can be tracked and measured.',
+            appLink: 'https://glencarpenter.github.io/reactKeyLogger/',
+            description1: 'React Key Logger is a proof-of-concept to show how user behavior can be tracked and measured by logging all user inputs.',
             description2: 'The question is, how useful is it to harvest ALL user keystrokes on your app?  Is it ethical to do so?  The key logger was fairly easy to create, however the privacy implications must be carefully considered prior to deployment.',
             gitHubLink: 'https://github.com/GlenCarpenter/reactKeyLogger',
             gitHubDesc: 'github.com/GlenCarpenter/reactKeyLogger',
