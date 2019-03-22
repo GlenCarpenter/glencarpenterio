@@ -1,15 +1,6 @@
 app.controller('MainController', ['$scope', function($scope) {
     $scope.projects = [
         {
-            title: 'RetroTube',
-            appLink: 'https://glencarpenter.github.io/retrotube/',
-            description1: 'RetroTube is an app that allows you to search for YouTube videos in a throwback 2007 YouTube layout',
-            description2: 'The app uses ReactJS and axios for API calls. The site is easy to navigate.',
-            gitHubLink: 'https://github.com/GlenCarpenter/retrotube',
-            gitHubDesc: 'github.com/GlenCarpenter/retrotube',
-            backgroundColor: {'background-color': 'Sienna'}
-        },
-        {
             title: 'New Saigon Grill',
             appLink: 'https://glencarpenter.github.io/new-saigon-denver/#/',
             description1: 'New Saigon Grill is a Vietnamese restaurant in Denver, CO.',
@@ -46,13 +37,22 @@ app.controller('MainController', ['$scope', function($scope) {
             backgroundColor: {'background-color': 'Sienna'}
         },
         {
+            title: 'RetroTube',
+            appLink: 'https://glencarpenter.github.io/retrotube/',
+            description1: 'RetroTube is an app that allows you to search for YouTube videos in a throwback 2007 aesthetic.  ',
+            description2: 'The app uses ReactJS and axios for API calls.',
+            gitHubLink: 'https://github.com/GlenCarpenter/retrotube',
+            gitHubDesc: 'github.com/GlenCarpenter/retrotube',
+            backgroundColor: {'background-color': 'SteelBlue'}
+        },
+        {
             title: 'Montessori Household',
             appLink: 'https://montessorihousehold.com/',
             description1: 'Montessori Household is a simple Wordpress eCommerce website that delivers tools to develop a Montessori learning environment in individual households.',
             description2: 'The site was initially created as an market evaluation for the products being sold, which was then updated to a full fledged web store.',
             gitHubLink: '',
             gitHubDesc: '',
-            backgroundColor: {'background-color': 'SteelBlue'}
+            backgroundColor: {'background-color': '#ffb868'}
         },
         {
             title: 'React Key Logger',
@@ -61,7 +61,7 @@ app.controller('MainController', ['$scope', function($scope) {
             description2: 'The question is, how useful is it to harvest ALL user keystrokes on your app?  Is it ethical to do so?  The key logger was fairly easy to create, however the privacy implications must be carefully considered prior to deployment.',
             gitHubLink: 'https://github.com/GlenCarpenter/reactKeyLogger',
             gitHubDesc: 'github.com/GlenCarpenter/reactKeyLogger',
-            backgroundColor: {'background-color': '#ffb868'}
+            backgroundColor: {'background-color': 'Dodgerblue'}
         },
         {
             title: 'Team Search',
@@ -70,7 +70,7 @@ app.controller('MainController', ['$scope', function($scope) {
             description2: 'Tool is used by a global team for day to day workflows.',
             gitHubLink: 'https://github.com/GlenCarpenter/teamSearch',
             gitHubDesc: 'github.com/GlenCarpenter/teamSearch',
-            backgroundColor: {'background-color': 'Dodgerblue'}
+            backgroundColor: {'background-color': 'Sienna'}
         },
         {
             title: 'VetRelief Site Enhancement',
@@ -79,7 +79,7 @@ app.controller('MainController', ['$scope', function($scope) {
             description2: 'This is a Chrome extension that changes layout of VetRelief.com website, which is owned and maintained by a third party developer.  This is accomplished by use of jQuery plugins and HTML/CSS injection.',
             gitHubLink: '',
             gitHubDesc: '',
-            backgroundColor: {'background-color': 'Sienna'}
+            backgroundColor: {'background-color': 'SteelBlue'}
         },
         {
             title: 'Reddit User Search',
@@ -88,7 +88,7 @@ app.controller('MainController', ['$scope', function($scope) {
             description2: '',
             gitHubLink: 'http://github.com/GlenCarpenter/RedditUserApp',
             gitHubDesc: 'github.com/GlenCarpenter/RedditUserApp',
-            backgroundColor: {'background-color': 'SteelBlue'}
+            backgroundColor: {'background-color': '#ffb868'}
         },
         {
             title: 'Glen Carpenter: Front End Developer',
@@ -97,7 +97,7 @@ app.controller('MainController', ['$scope', function($scope) {
             description2: 'This website was custom built with jQuery, Bootstrap, and AngularJS.',
             gitHubLink: 'https://github.com/GlenCarpenter/glencarpenterio',
             gitHubDesc: 'github.com/GlenCarpenter/glencarpenterio',
-            backgroundColor: {'background-color': '#ffb868'}
+            backgroundColor: {'background-color': 'Dodgerblue'}
         }
     ];
   }]);
