@@ -49,7 +49,7 @@ app.controller('MainController', ['$scope', function($scope) {
             title: 'Montessori Household',
             appLink: 'https://montessorihousehold.com/',
             description1: 'Montessori Household is a simple Wordpress eCommerce website that delivers tools to develop a Montessori learning environment in individual households.',
-            description2: 'The site was initially created as an market evaluation for the products being sold, which was then updated to a full fledged web store.',
+            description2: 'The site was initially created as a market evaluation for the products being sold, which was then updated to a full fledged web store.',
             gitHubLink: '',
             gitHubDesc: '',
             backgroundColor: {'background-color': '#ffb868'}
