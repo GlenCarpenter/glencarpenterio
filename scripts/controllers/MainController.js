@@ -13,7 +13,7 @@ app.controller('MainController', ['$scope', function($scope) {
             title: 'CoffeeLab Solutions',
             appLink: 'https://glencarpenter.github.io/CoffeeLabSolutions/',
             description1: 'CoffeeLab Solutions is a software solutions and project management service provider.',
-            description2: 'The website I created is a lead generation landing page desinged to drive sales.    The site is easy to navigate and use on both desktop and mobile.',
+            description2: 'The website I created is a lead generation landing page designed to drive sales.    The site is easy to navigate and use on both desktop and mobile.',
             gitHubLink: 'https://github.com/GlenCarpenter/CoffeeLabSolutions',
             gitHubDesc: 'github.com/GlenCarpenter/CoffeeLabSolutions',
             backgroundColor: {'background-color': '#ffb868'}
