@@ -37,6 +37,15 @@ app.controller('MainController', ['$scope', function($scope) {
             backgroundColor: {'background-color': 'Sienna'}
         },
         {
+            title: 'Blackjack!',
+            appLink: 'https://glencarpenter.github.io/blackjack/index.html',
+            description1: 'A text-based blackjack game.',
+            description2: 'Great for killing time!',
+            gitHubLink: 'https://github.com/GlenCarpenter/blackjack',
+            gitHubDesc: 'View on GitHub',
+            backgroundColor: {'background-color': '#ffb868'}
+        },
+        {
             title: 'RetroTube',
             appLink: 'https://glencarpenter.github.io/retrotube/',
             description1: 'RetroTube is an app that allows you to search for YouTube videos in a throwback 2007 aesthetic.  ',
