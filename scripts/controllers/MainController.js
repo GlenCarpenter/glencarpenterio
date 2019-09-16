@@ -39,7 +39,7 @@ app.controller('MainController', ['$scope', function($scope) {
         {
             title: 'Blackjack!',
             appLink: 'https://glencarpenter.github.io/blackjack/index.html',
-            description1: 'A text-based blackjack game.',
+            description1: 'A text-based blackjack game, made with Vue.js.',
             description2: 'Great for killing time!',
             gitHubLink: 'https://github.com/GlenCarpenter/blackjack',
             gitHubDesc: 'View on GitHub',
