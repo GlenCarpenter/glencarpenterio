@@ -1,6 +1,15 @@
 app.controller('MainController', ['$scope', function($scope) {
     $scope.projects = [
         {
+            title: '.NET To-do App',
+            appLink: 'https://github.com/GlenCarpenter/dotnet-todo',
+            description1: 'A .NET console to-do app written in C#.',
+            description2: 'Special attention was given to error handling, preventing improper inputs, and seamless user interaction.',
+            gitHubLink: 'https://github.com/GlenCarpenter/dotnet-todo',
+            gitHubDesc: 'View on GitHub',
+            backgroundColor: {'background-color': '#ffb868'}
+        },
+        {
             title: 'New Saigon Grill',
             appLink: 'https://glencarpenter.github.io/new-saigon-denver/#/',
             description1: 'New Saigon Grill is a Vietnamese restaurant in Denver, CO.',
