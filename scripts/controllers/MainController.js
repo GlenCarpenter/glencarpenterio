@@ -1,4 +1,4 @@
-var colors = ['#ffb868', 'SteelBlue', '#Tomato', 'Dodgerblue', 'Sienna'];
+var colors = ['#ffb868', 'SteelBlue', 'Tomato', 'Dodgerblue', 'Sienna'];
 var getNextIndex = (function () {
   var counter = 0;
   return function () {counter === 4 ? counter = 0 : counter += 1; return counter}
