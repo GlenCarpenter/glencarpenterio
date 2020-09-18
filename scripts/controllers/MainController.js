@@ -1,6 +1,6 @@
-var colors = ["Sienna", "#ffb868", "SteelBlue", "MediumSeaGreen", "Dodgerblue"];
+var colors = ["#ffb868", "SteelBlue", "MediumSeaGreen", "Dodgerblue", "Sienna"];
 var getNextIndex = (function () {
-  var counter = 0;
+  var counter = -1; // initializing at -1 so first instance returns 0
   return function () {
     counter === colors.length - 1 ? (counter = 0) : (counter += 1);
     return counter;
