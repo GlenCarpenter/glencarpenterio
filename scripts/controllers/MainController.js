@@ -1,7 +1,7 @@
 var colors = ['Sienna', '#ffb868', 'SteelBlue', 'MediumSeaGreen', 'Dodgerblue'];
 var getNextIndex = (function () {
   var counter = 0;
-  return function () {counter === 4 ? counter = 0 : counter += 1; return counter}
+  return function () {counter === colors.length - 1 ? counter = 0 : counter += 1; return counter}
 })();
 
 app.controller('MainController', ['$scope', function($scope) {
