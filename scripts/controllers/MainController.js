@@ -19,15 +19,6 @@ app.controller('MainController', ['$scope', function($scope) {
             backgroundColor: {'background-color': colors[getNextIndex()]}
         },
         {
-            title: 'New Saigon Grill',
-            appLink: 'https://glencarpenter.github.io/new-saigon-denver/#/',
-            description1: 'New Saigon Grill is a Vietnamese restaurant in Denver, CO.',
-            description2: 'The website uses ReactJS with React Router, react-scroll-parallax, and google-map-react to create a seamless and responsive single page application.  The site is easy to navigate and use on both desktop and mobile.',
-            gitHubLink: 'https://github.com/GlenCarpenter/new-saigon-denver',
-            gitHubDesc: 'View on GitHub',
-            backgroundColor: {'background-color': colors[getNextIndex()]}
-        },
-        {
             title: 'CoffeeLab Solutions',
             appLink: 'https://glencarpenter.github.io/CoffeeLabSolutions/',
             description1: 'CoffeeLab Solutions is a software solutions and project management service provider.',
