@@ -2,18 +2,30 @@
 <html>
   <head>
     <style>
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:100,300|Montserrat|Raleway');
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:100,300|Montserrat|Raleway');
     </style>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>glencarpenter.io</title>
     <link rel="shortcut icon" href="images/favicon.ico" />
-    <meta property="og:site_name" content="Glen Carpenter: Full Stack Engineer"/>
-    <meta property="og:image" content="http://glencarpenter.io/images/GCIOIcon.PNG"/>
-    <meta property="og:description" content="A little bit about me:  I am a Software Engineer based out of Denver, CO. I have a passion for software, technology, and web development. My areas of expertise include: HTML5, CSS, JavaScript, React, SQL, Ruby on Rails, Node.js, and Linux system administration."/>
-    <meta property="og:url" content="http://glencarpenter.io">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta
+      property="og:site_name"
+      content="Glen Carpenter: Full Stack Engineer"
+    />
+    <meta
+      property="og:image"
+      content="http://glencarpenter.io/images/GCIOIcon.PNG"
+    />
+    <meta
+      property="og:description"
+      content="A little bit about me:  I am a Software Engineer based out of Denver, CO. I have a passion for software, technology, and web development. My areas of expertise include: HTML5, CSS, JavaScript, React, SQL, Ruby on Rails, Node.js, and Linux system administration."
+    />
+    <meta property="og:url" content="http://glencarpenter.io" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
@@ -24,45 +36,64 @@
   <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <button
+          type="button"
+          class="navbar-toggle"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+        >
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span> 
+          <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#">glencarpenter.io</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#home">Home</a></li>
-          <li><a href="#aboutme">About</a></li> 
-          <li><a href="#projects">Projects</a></li> 
+          <li><a href="#aboutme">About</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-    <!-- Body / Header -->
-  <body ng-app="GlenCarpenterIO" id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div class="glenbox parallax-window" data-parallax="scroll" data-image-src="images/Denver.jpg">
+  <!-- Body / Header -->
+  <body
+    ng-app="GlenCarpenterIO"
+    id="home"
+    data-spy="scroll"
+    data-target=".navbar"
+    data-offset="50"
+  >
+    <div
+      class="glenbox parallax-window"
+      data-parallax="scroll"
+      data-image-src="images/Denver.jpg"
+    >
       <section class="menu">
         <h1>Glen Carpenter</h1>
         <h2 id="subheader">Full Stack Engineer</h2>
       </section>
     </div>
-      
+
     <div class="banner1">
-      <h3  id="aboutme">Hello, my name is Glen.</h3>
+      <h3 id="aboutme">Hello, my name is Glen.</h3>
     </div>
 
     <div class="aboutme">
-        <h1 class="blue">A little bit about me</h1>
-        <br>
-        <br>  <h4>I am a full stack software engineer based out of Denver, CO.  I have a passion for software, technology, and web development.
-        <br>
-        <br>My areas of expertise include:</h4>
+      <h1 class="blue">A little bit about me</h1>
+      <br />
+      <br />
+      <h4>
+        I am a full stack software engineer based out of Denver, CO. I have a
+        passion for software, technology, and web development.
+        <br />
+        <br />My areas of expertise include:
+      </h4>
       <ul class="icons">
-        <li>HTML5 <img src="images/html5.png"/></li>
+        <li>HTML5 <img src="images/html5.png" /></li>
         <li>CSS <img src="images/css.png" /></li>
         <li>JavaScript <img src="images/js.png" /></li>
         <li>React <img src="images/react.png" /></li>
@@ -74,25 +105,41 @@
         <li>Node.js <img src="images/nodejs.png" /></li>
         <li>Linux <img src="images/linux.png" /></li>
         <li>Python <img src="images/python.png" /></li>
-        <li>Django <img src="images/django.png" /></li>        
+        <li>Django <img src="images/django.png" /></li>
         <li>C# <img src="images/c-sharp.png" /></li>
         <li>.NET Core <img src="images/dotnet.png" /></li>
         <li>AWS <img src="images/aws-logo.png" /></li>
         <li>PMP <img src="images/pmp.png" /></li>
       </ul>
-      <h4>I am a dedicated UI developer and UX designer. I have spent several years building single page applications and static websites using a variety of web based technologies.
-        <br><br>
-        My back end experience includes the development and maintainence of RESTful APIs using Django REST, .NET WebAPI, Java Spring, and Express on Node.js
-        <br><br>
-        I have an entrepreneurial spirit and bring my best to every company I've had the pleasure of working with. I am always looking for a new adventure, and I'd love to hear from you.</h4><br>
+      <h4>
+        I am a dedicated UI developer and UX designer. I have spent several
+        years building single page applications and static websites using a
+        variety of web based technologies. <br /><br />
+        My back end experience includes the development and maintainence of
+        RESTful APIs using Django REST, .NET WebAPI, Java Spring, and Express on
+        Node.js
+        <br /><br />
+        I have an entrepreneurial spirit and bring my best to every company I've
+        had the pleasure of working with. I am always looking for a new
+        adventure, and I'd love to hear from you.
+      </h4>
+      <br />
     </div>
-      
-    <div class="banner2 parallax-window" data-parallax="scroll" data-image-src="images/banner.jpg">>
-    </div>
+
+    <div
+      class="banner2 parallax-window"
+      data-parallax="scroll"
+      data-image-src="images/banner.jpg"
+    ></div>
     <div id="projects"></div>
     <div class="projects" ng-controller="MainController">
-      <h1 class="blue"><br>Projects</h1><br>
-      <h4>I work on both front-end and back-end, with an emphasis on code readability, sustainability, and cleanliness.</h4><br>
+      <h1 class="blue"><br />Projects</h1>
+      <br />
+      <h4>
+        I work on both front-end and back-end, with an emphasis on code
+        readability, sustainability, and cleanliness.
+      </h4>
+      <br />
       <h4>Here are some examples of my work:</h4>
       <div class="projects-container">
         <div ng-repeat="project in projects">
@@ -100,7 +147,6 @@
         </div>
       </div>
     </div>
-
 
     <!-- Modules -->
     <script src="scripts/app.js"></script>
@@ -110,14 +156,15 @@
 
     <!-- Directives -->
     <script src="scripts/directives/projectInfo.js"></script>
-
   </body>
 
   <footer>
-    <br><p>Glen Carpenter, June 2018</p>
-    <p id="contact">Contact information: <br>Email: <a href="mailto:glen@glencarpenter.io">
-      glen@glencarpenter.io</a>
-      <br>Phone: (805) 300-7643
+    <br />
+    <p>Glen Carpenter, June 2018</p>
+    <p id="contact">
+      Contact information: <br />Email:
+      <a href="mailto:glen@glencarpenter.io"> glen@glencarpenter.io</a>
+      <br />Phone: (805) 300-7643
     </p>
   </footer>
 </html>
