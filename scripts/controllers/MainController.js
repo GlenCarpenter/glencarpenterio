@@ -45,7 +45,7 @@ app.controller('MainController', [
       },
       {
         title: '8bit Paint',
-        appLink: 'https://easy-8bit-paint.herokuapp.com/index.html',
+        appLink: 'https://glencarpenter.github.io/8bit_paint/',
         description1:
           '8bit Paint allows the user to paint a 16x16 grid in a retro sprite style and can even download the image when complete!',
         description2: 'Based on my love for all things Nintendo!',
